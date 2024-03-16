@@ -1,0 +1,107 @@
+/*
+tagcolor -#51cf66
+#ffd43b
+spaceing-section -2rem
+padding
+horizontal 8rem;
+heading-primary
+2
+--- 01 TYPOGRAPHY SYSTEM
+3
+4
+5
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52
+/
+74 / 86 / 98
+6
+7
+8
+- Font weights
+Default: 400
+9
+10
+11
+- Line heights
+Default: 1
+12
+13
+---
+02 COLORS
+14
+15 - Primary:
+#e67e22
+Secondary:#fdf2e9
+16 - Tints:#b66823
+17 - Shades:
+18
+- Accents:
+19
+- Greys
+20
+#555
+21
+22
+05 SHADOWS
+23
+24
+06 BORDER-RADIUS
+25
+26
+07 WHITESPACE
+27
+28
+- Spacing system (px)
+2 / 4 / 8 / 12 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
+*:focus {
+  outline-style: none;
+  box-shadow: 0 0 0 0.8rem #e0ae85;
+  /* outline-color: #e8a56e;
+  outline-width: 0.5rem;
+  border-radius: 2px; */
+}
+
+.grid--center-v {
+  align-items: center;
+  /* background-color: red; */
+}
+.center-text {
+  text-align: center;
+}
+.center-div {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+input {
+  background-color: #fff;
+  border-style: none;
+  padding-left: 1rem;
+  border-radius: 8px;
+  border-width: 0px;
+}
+
+.item-center {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+.footer-logo {
+  width: 4rem;
+}
+
+select {
+  border-radius: 8px;
+  border-style: none;
+}
